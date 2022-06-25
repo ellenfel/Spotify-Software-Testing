@@ -16,7 +16,7 @@ def LogInOut():
 
     username_field = driver.find_element_by_id("login-username")
     username_field.clear()
-    username_field.sengitd_keys(username)
+    username_field.send_keys(username)
 
     password_field = driver.find_element_by_id("login-password")
     password_field.clear()
