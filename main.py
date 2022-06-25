@@ -6,7 +6,3 @@ LogInOut()
 
 # Tests Search & Play utilities
 play()
-
-#LogOut()
-
-
