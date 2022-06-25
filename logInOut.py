@@ -1,9 +1,6 @@
 
 from Libs import *
     
-
-
-
 def LogInOut():
     # create webdriver object
     profile = webdriver.FirefoxProfile('/home/ellenfel/.mozilla/firefox/4bcejejs.4testing')

@@ -5186,6 +5186,7 @@ unwatchForTabs()@TargetList.jsm:70
 unwatchForTargets()@TargetList.jsm:37
 destructor()@TargetList.jsm:109
 close()@RemoteAgent.jsm:136
+<<<<<<< HEAD
 1656152581804	geckodriver	INFO	Listening on 127.0.0.1:53973
 1656152590247	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54915" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1pUAKO"
 [GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
@@ -5710,6 +5711,24 @@ run@resource://gre/modules/ConduitsChild.jsm:175:30
 receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
 receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
 ]]
+=======
+1656092198547	geckodriver	INFO	Listening on 127.0.0.1:44967
+1656092207084	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48201" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefJgyGv"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1656092207547	Marionette	INFO	Marionette enabled
+JavaScript warning: moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://localhost:48201/devtools/browser/9e2132cc-81f9-4970-b051-7c4ab7a1372b
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+1656092210246	Marionette	INFO	Listening on port 38387
+1656092210315	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.274877906946
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 571: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: moz-extension://89cdb59d-a9dc-4133-a5b4-53ae99ef33d9/assets/prompt.js, line 1: SyntaxError: redeclaration of let nextPromptResult
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 499: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 499: TypeError: this.contentWindow is null
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 571: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+>>>>>>> 7b73db64e0b12b350421717f6b232b8b1ab09f9c
 Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
 [[Exception stack
 updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
@@ -5724,6 +5743,7 @@ run@resource://gre/modules/ConduitsChild.jsm:175:30
 receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
 receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
 ]]
+<<<<<<< HEAD
 1656152631741	geckodriver	INFO	Listening on 127.0.0.1:53177
 1656152640687	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "32801" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3sQDNU"
 JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.274877907238
@@ -5744,6 +5764,8 @@ JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, l
 JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.274877906946
 JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 571: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
 JavaScript error: moz-extension://89cdb59d-a9dc-4133-a5b4-53ae99ef33d9/assets/prompt.js, line 1: SyntaxError: redeclaration of let nextPromptResult
+=======
+>>>>>>> 7b73db64e0b12b350421717f6b232b8b1ab09f9c
 JavaScript warning: moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
 Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
 [[Exception stack
@@ -6167,6 +6189,7 @@ run@resource://gre/modules/ConduitsChild.jsm:175:30
 receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
 receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
 ]]
+<<<<<<< HEAD
 Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
 [[Exception stack
 findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
@@ -6258,6 +6281,13 @@ run@resource://gre/modules/ConduitsChild.jsm:175:30
 receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
 receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
 ]]
+=======
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+1656092220500	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1656092220937	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=151513, line 1: f: OneSignal: This web push config can only be used on https://www2.f2movies.to. Your current origin is https://www6.f2movies.to.
+>>>>>>> 7b73db64e0b12b350421717f6b232b8b1ab09f9c
 Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
 [[Exception stack
 updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
@@ -6273,6 +6303,7 @@ receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
 receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
 ]]
 Sandbox: attempt to open unexpected file /proc/net/unix
+<<<<<<< HEAD
 Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
 [[Exception stack
 updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
@@ -6294,6 +6325,34 @@ JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sen
 !!! error running onStopped callback: TypeError: callback is not a function
 1656152685872	Marionette	INFO	Stopped listening on port 41981
 1656152688004	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+=======
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.614cef54.js, line 1: HttpResponseError: 
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Sandbox: attempt to open unexpected file /proc/self/maps
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.274877907228
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1656092252536	Marionette	INFO	Stopped listening on port 38387
+1656092254125	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+>>>>>>> 7b73db64e0b12b350421717f6b232b8b1ab09f9c
 unwatchForTabs()@TargetList.jsm:70
 unwatchForTargets()@TargetList.jsm:37
 destructor()@TargetList.jsm:109
