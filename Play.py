@@ -46,5 +46,3 @@ def play():
     play_button = driver.find_element_by_xpath("/html/body/div[4]/div/div[2]/div[3]/div[1]/div[2]/div[2]/div/div/div[2]/main/div[2]/div/div/section[2]/div[2]/div/div/div/div[2]/div[1]/div/div[1]/div[1]/button")
     play_button.click()
     driver.implicitly_wait(50)
-
-play()
