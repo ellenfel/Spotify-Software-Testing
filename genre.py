@@ -44,3 +44,7 @@ def testGenre():
     play_button = driver.find_element_by_xpath("/html/body/div[4]/div/div[2]/div[3]/div[1]/div[2]/div[2]/div/div/div[2]/main/div/section/div[2]/div[2]/section[1]/div[2]/div[7]/div/div[1]/div[2]/div/button/div")
     play_button.click()
     driver.implicitly_wait(50)
+
+    driver.implicitly_wait(50)
+    driver.close() #closes the browser
+    print("Genre Location testings finished successfully")
