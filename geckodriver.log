@@ -11284,3 +11284,2785 @@ unwatchForTabs()@TargetList.jsm:70
 unwatchForTargets()@TargetList.jsm:37
 destructor()@TargetList.jsm:109
 close()@RemoteAgent.jsm:136
+1656223670112	geckodriver	INFO	Listening on 127.0.0.1:38977
+1656223712271	geckodriver	INFO	Listening on 127.0.0.1:36411
+1656223720271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYz8p3j"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1656223724465	Marionette	INFO	Marionette enabled
+JavaScript warning: moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 181ms)
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+DevTools listening on ws://localhost:44473/devtools/browser/b8b24c89-0204-424f-bb31-3cc40120d80a
+1656223732665	Marionette	INFO	Listening on port 43735
+1656223732867	Marionette	WARN	TLS certificate errors will be ignored for this session
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.274877906946
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 571: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+Extension error: TypeError: processedConfig is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/content-scripts/autofill.js 9728
+[[Exception stack
+isAutofillEnabledFromProcessedConfig@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/content-scripts/autofill.js:9728:16
+[11]</isEnabled/</<@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/content-scripts/autofill.js:3151:73
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:829:22
+]]
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 616: TypeError: context.contentWindow is null
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.274877907271
+JavaScript error: resource://gre/actors/AudioPlaybackParent.jsm, line 24: TypeError: browser is null
+!!! error running onStopped callback: TypeError: callback is not a function
+1656223778083	Marionette	INFO	Stopped listening on port 43735
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 833: NotAllowedError: Shutting down and refusing additional I/O tasks
+1656223778122	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1656223889565	geckodriver	INFO	Listening on 127.0.0.1:51927
+1656223897781	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33047" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0JeVF2"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1656223898219	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:33047/devtools/browser/1b4174e5-5284-470a-a7a4-1aa482617877
+JavaScript warning: moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+1656223900528	Marionette	INFO	Listening on port 43547
+1656223900642	Marionette	WARN	TLS certificate errors will be ignored for this session
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 571: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: moz-extension://89cdb59d-a9dc-4133-a5b4-53ae99ef33d9/assets/prompt.js, line 1: SyntaxError: redeclaration of let nextPromptResult
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 571: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+JavaScript warning: moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromResponse@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22296:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromResponse@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22296:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.274877907227
+1656223965036	Marionette	INFO	Stopped listening on port 43547
+1656223967315	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1656223973073	geckodriver	INFO	Listening on 127.0.0.1:35941
+1656223981297	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47057" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4pyV2B"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1656223981746	Marionette	INFO	Marionette enabled
+JavaScript warning: moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://localhost:47057/devtools/browser/75a2b67f-0c68-4fe3-8f31-915da38e2262
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+1656223984130	Marionette	INFO	Listening on port 43021
+1656223984482	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.274877906946
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 571: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: moz-extension://89cdb59d-a9dc-4133-a5b4-53ae99ef33d9/assets/prompt.js, line 1: SyntaxError: redeclaration of let nextPromptResult
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 571: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromResponse@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22296:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+1656224018994	geckodriver	INFO	Listening on 127.0.0.1:48931
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+1656224029970	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36351" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJ67EWa"
+Sandbox: attempt to open unexpected file /proc/self/maps
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1656224030864	Marionette	INFO	Marionette enabled
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+JavaScript warning: moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://localhost:36351/devtools/browser/795ac451-94b0-47b0-add9-fac4f36c66e8
+Sandbox: attempt to open unexpected file /proc/self/maps
+1656224033656	Marionette	INFO	Listening on port 42047
+1656224033783	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 571: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+Extension error: TypeError: processedConfig is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/content-scripts/autofill.js 9728
+[[Exception stack
+isAutofillEnabledFromProcessedConfig@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/content-scripts/autofill.js:9728:16
+[11]</isEnabled/</<@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/content-scripts/autofill.js:3151:73
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:829:22
+]]
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 571: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 616: TypeError: context.contentWindow is null
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromResponse@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22296:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+JavaScript error: , line 0: uncaught exception: Object
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+1656224060003	geckodriver	INFO	Listening on 127.0.0.1:47125
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+1656224073227	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56963" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6dTvrf"
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1656224074147	Marionette	INFO	Marionette enabled
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/self/maps
+JavaScript warning: moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+Sandbox: attempt to open unexpected file /proc/self/maps
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+DevTools listening on ws://localhost:56963/devtools/browser/22efd418-daa2-47e0-9fd8-1bae607977e7
+1656224078231	Marionette	INFO	Listening on port 44745
+1656224078340	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromResponse@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22296:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromResponse@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22296:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromResponse@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22296:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromResponse@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22296:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 450
+[[Exception stack
+getTrackerData@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:450:23
+handleRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:24331:28
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromResponse@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22296:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/self/maps
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.274877906946
+Sandbox: attempt to open unexpected file /proc/self/maps
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 571: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+Extension error: TypeError: processedConfig is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/content-scripts/autofill.js 9728
+[[Exception stack
+isAutofillEnabledFromProcessedConfig@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/content-scripts/autofill.js:9728:16
+[11]</isEnabled/</<@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/content-scripts/autofill.js:3151:73
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:829:22
+]]
+JavaScript warning: moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+Sandbox: attempt to open unexpected file /proc/self/maps
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 616: TypeError: context.contentWindow is null
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromResponse@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22296:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromRequest@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22340:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromResponse@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22296:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Extension error: TypeError: this.trackerList is undefined moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js 535
+[[Exception stack
+findTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:535:40
+isTracker@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:25662:38
+dropTracking3pCookiesFromResponse@moz-extension://51dca3e8-c5ef-4017-a528-14d4d44d3fdb/public/js/background.js:22296:41
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.b2100214.js, line 1: DUPLICATE_REQUEST_ERROR: DUPLICATE_REQUEST_ERROR: Already sent this request (GET::https://api.spotify.com/v1/me/albums/contains::{"ids":"3ArSFkv4OQOosOvYTrZNIl,022I8JNsbclNqE0hJDxhYz,6uof38bF3vLCZgMhjQKZ5y,3pi6NXntLETosIkAuaZEhW,0iDASlJ6faB4ZDVkKlqbHj,7ampUMuhfCx0briKjYNKRQ,3N9ECfsk4OUDKhmhPT3OPX"})
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js 153
+[[Exception stack
+updatePageFrameStructure@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:153:20
+@moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/ext/background.js:256:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+run@resource://gre/modules/ConduitsChild.jsm:175:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:176:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:176:31
+]]
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.274877907270
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+!!! error running onStopped callback: TypeError: callback is not a function
+Sandbox: attempt to open unexpected file /proc/self/maps
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.274877907247
+!!! error running onStopped callback: TypeError: callback is not a function
+Sandbox: attempt to open unexpected file /proc/self/maps
+1656224123285	Marionette	INFO	Stopped listening on port 44745
+Sandbox: attempt to open unexpected file /proc/self/maps
+1656224124589	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+1656224127173	Marionette	INFO	Stopped listening on port 42047
+1656224127212	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1656224127769	geckodriver	INFO	Listening on 127.0.0.1:40337
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/net/unix
+Sandbox: attempt to open unexpected file /proc/self/maps
+Sandbox: attempt to open unexpected file /proc/self/maps
+JavaScript error: resource://gre/actors/AudioPlaybackParent.jsm, line 24: TypeError: browser is null
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.274877907225
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+1656224134553	Marionette	INFO	Stopped listening on port 43021
+1656224134591	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1656224137655	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59737" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileb94lp8"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1656224137971	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:59737/devtools/browser/16b7b730-c7f2-4585-b652-2a17f94b0f35
+JavaScript warning: moz-extension://de027147-bf42-4212-94c6-54f9bdf65f60/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1656224140490	Marionette	INFO	Listening on port 44013
+1656224140518	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 215: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 215: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 215: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 215: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.274877906946
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 215: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 215: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 215: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+!!! error running onStopped callback: TypeError: callback is not a function
+1656224142282	Marionette	INFO	Stopped listening on port 44013
+1656224142341	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
