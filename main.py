@@ -13,5 +13,3 @@ play()
 testGenre()
 
 #LogOut()
-
-
