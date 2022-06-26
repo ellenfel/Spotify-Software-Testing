@@ -33,3 +33,10 @@ def LogInOut():
     #/html/body/div[4]/div/div[2]/div[1]/header/div[5]/div/div/ul/li[4]/button
     logout = driver.find_element_by_xpath("/html/body/div[4]/div/div[2]/div[1]/header/div[5]/div/div/ul/li[4]/button")
     logout.click()
+
+    driver.implicitly_wait(50)
+    driver.close() #closes the browser
+    print("Login & out tested finished successfully")
+
+    
+
