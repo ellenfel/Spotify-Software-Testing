@@ -17,6 +17,35 @@ i = 0
 j = 0
 k = 0
 
+#Genre testing functinality
+def recurrsiveEH2(k):
+    try:
+        testGenre()
+                        
+    except:
+        k += 1
+        print("#testGenre failures: ",k)
+        recurrsiveEH2(k)
+
+    else:
+        return i,j,k
+
+
+#play functinality
+def recurrsiveEH1(j):
+    try:
+        play()
+                
+
+    except:
+        j += 1
+        print("#Play failures: ",j)
+        recurrsiveEH1(j)
+
+    else:
+        recurrsiveEH2(k)
+
+
 def recurrsiveEH(i):
     try:
         LogInOut()
@@ -29,29 +58,7 @@ def recurrsiveEH(i):
 
 
     else:
-        def recurrsiveEH1(j):
-            try:
-                play()
-                
-
-            except:
-                j += 1
-                print("#Play failures: ",j)
-                recurrsiveEH1(j)
-
-            else:
-                def recurrsiveEH2(k):
-                    try:
-                        testGenre()
-                        
-
-                    except:
-                        k += 1
-                        print("#testGenre failures: ",k)
-                        recurrsiveEH2(k)
-
-                    else:
-                        return i, j, k
+        recurrsiveEH1(j)
                 
 recurrsiveEH(i)
 
