@@ -28,7 +28,7 @@ def recurrsiveEH2(k):
         recurrsiveEH2(k)
 
     else:
-        return i,j,k
+        return k
 
 
 #play functinality
@@ -44,6 +44,7 @@ def recurrsiveEH1(j):
 
     else:
         recurrsiveEH2(k)
+        return j, k
 
 
 def recurrsiveEH(i):
@@ -59,6 +60,7 @@ def recurrsiveEH(i):
 
     else:
         recurrsiveEH1(j)
+        return i, j, k
                 
 recurrsiveEH(i)
 
