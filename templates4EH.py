@@ -17,7 +17,8 @@ try:
 
 except:
     i += 1
+    print(i)
     LogInOut()
 
 else:
-    print(i)
+    print("total number of runs before it worked is ",i)
