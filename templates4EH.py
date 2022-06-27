@@ -47,7 +47,7 @@ def recurrsiveEH(i):
 
                     except:
                         k += 1
-                        print("#testGenre failures: "k)
+                        print("#testGenre failures: ",k)
                         recurrsiveEH2(k)
 
                     else:
