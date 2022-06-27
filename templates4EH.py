@@ -10,15 +10,21 @@
 #finally:
 
 from logInOut import *
-i=0
+i = 0
 
-try:
-    LogInOut()
+def recurrsiveEH(i):
+    try:
+        LogInOut()
 
-except:
-    i += 1
-    print(i)
-    LogInOut()
+    except:
+        i += 1
+        print(i)
+        recurrsiveEH(i)
 
-else:
-    print("total number of runs before it worked is ",i)
+    else:
+        return i
+
+recurrsiveEH(i)
+
+if(i!=0):
+    print("number of exceptions during tests = ",i)
