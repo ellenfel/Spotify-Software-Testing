@@ -69,7 +69,7 @@ def recursiveEH(i):
 recursiveEH(i)
 
 
-#print("number of test failures happend during func 1 testing is: ",i)
+#zprint("number of test failures happend during func 1 testing is: ",i)
 #print("number of test failures happend during func 2 testing is: ",j)
 #print("number of test failures happend during func 3 testing is: ",k)
 #test1, test2, test3 = i,j,k
