@@ -18,21 +18,23 @@ j = 0
 k = 0
 
 #Genre testing functinality
-def recursiveEH2(k):
+def recursiveEH2():
+
+    global k
+    
     try:
         testGenre()
                         
     except:
         k += 1
         print("#testGenre failures: ",k)
-        recursiveEH2(k)
-
-    else:
-        return k
-
+        recursiveEH2()
 
 #play functinality
-def recursiveEH1(j):
+def recursiveEH1():
+
+    global j
+
     try:
         play()
                 
@@ -40,15 +42,16 @@ def recursiveEH1(j):
     except:
         j += 1
         print("#Play failures: ",j)
-        recursiveEH1(j)
+        recursiveEH1()
 
     else:
-        recursiveEH2(k)
-    return j, k
+        recursiveEH2()
 
 
-def recursiveEH(i):
+def recursiveEH():
 
+    global i
+    
     try:
         LogInOut()
         
@@ -57,19 +60,19 @@ def recursiveEH(i):
         
         i += 1
         print("#Log(in-out) failures: ",i)
-        recursiveEH(i)
+        recursiveEH()
 
 
     else:
-        recursiveEH1(j)
+        recursiveEH1()
     
-    return i, j, k
+        
         
                 
-recursiveEH(i)
+recursiveEH()
 
 
-#zprint("number of test failures happend during func 1 testing is: ",i)
-#print("number of test failures happend during func 2 testing is: ",j)
-#print("number of test failures happend during func 3 testing is: ",k)
+print("number of test failures happend during func 1 testing is: ",i)
+print("number of test failures happend during func 2 testing is: ",j)
+print("number of test failures happend during func 3 testing is: ",k)
 #test1, test2, test3 = i,j,k
