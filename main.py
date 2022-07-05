@@ -1,7 +1,7 @@
 from logInOut import *
 from Play import *
 from genre import *
-from unfollow import unfollow
+from unfollow import *
 
 i = 0
 j = 0
