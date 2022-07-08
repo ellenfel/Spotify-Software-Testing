@@ -16,11 +16,11 @@ def recursiveEH4():
     global m
 
     try:
-        unfollow()
+        Settings()
 
     except:
         m += 1
-        print("#Settings failures: ",l)
+        print("#Settings failures: ",m)
         recursiveEH4()
 
 #follow -unfollow functinality
