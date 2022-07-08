@@ -37,3 +37,4 @@ def LogInOut():
     driver.implicitly_wait(50)
     driver.close() #closes the browser
     print("Login & out tested finished successfully")
+    driver.quit()
