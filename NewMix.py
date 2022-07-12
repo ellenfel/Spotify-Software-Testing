@@ -1,6 +1,6 @@
 from Libs import *
 
-def NexMix():
+def Mix():
     # create webdriver object
     profile = webdriver.FirefoxProfile('/home/ellenfel/.mozilla/firefox/4bcejejs.4testing')
     driver = webdriver.Firefox(profile)

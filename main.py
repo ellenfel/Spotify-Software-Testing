@@ -1,4 +1,3 @@
-from NewMix import *
 from blocks import *
 from logInOut import *
 from Play import *
@@ -6,7 +5,7 @@ from genre import *
 from unfollow import *
 from Settings import *
 
-NewMix()
+from NewMix import *
 
 i = 0
 j = 0
@@ -22,7 +21,7 @@ def recursiveEH6():
     global p
 
     try:
-        NewMix()
+        Mix()
 
     except:
         p += 1
