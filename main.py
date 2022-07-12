@@ -1,3 +1,4 @@
+from blocks import *
 from logInOut import *
 from Play import *
 from genre import *
@@ -9,6 +10,20 @@ j = 0
 k = 0
 l = 0
 m = 0
+n = 0
+
+#Block Funcstinality
+def recursiveEH5():
+
+    global n
+
+    try:
+        block()
+
+    except:
+        n += 1
+        print("#Block failures: ",n)
+        recursiveEH5()
 
 #Settings & recepiets Funcstinality
 def recursiveEH4():
@@ -22,6 +37,9 @@ def recursiveEH4():
         m += 1
         print("#Settings failures: ",m)
         recursiveEH4()
+
+    else:
+        recursiveEH5()
 
 #follow -unfollow functinality
 def recursiveEH3():
@@ -100,3 +118,4 @@ print("number of test failures happend during func 2 testing is: ",j)
 print("number of test failures happend during func 3 testing is: ",k)
 print("number of test failures happend during func 4 testing is: ",l)
 print("number of test failures happend during func 5 testing is: ",m)
+print("number of test failures happend during func 6 testing is: ",n)
