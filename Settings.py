@@ -43,6 +43,7 @@ def Settings():
 
     driver.implicitly_wait(500)
 
+    #/html/body/div[1]/div/div/div/div[3]/div[1]/div/ul/li[8]/a
     makbuz = driver.find_element_by_xpath("/html/body/div[1]/div/div/div[2]/div[3]/div[1]/div/ul/li[8]/a")
     makbuz.click()
 
