@@ -49,3 +49,4 @@ def play():
     driver.implicitly_wait(50)
     driver.close() #closes the browser
     print("Search & Play utilities testings finished successfully")
+    driver.quit()
