@@ -33,8 +33,6 @@ def play():
     second_button =driver.find_element_by_xpath("/html/body/div[4]/div/div[2]/div[1]/header/div[3]/div/div/form/input")
     second_button.send_keys("black norah jones") #search param
 
-
-
     #mouse hover action
     a = ActionChains(driver)
     ele = driver.find_element_by_xpath("/html/body/div[4]/div/div[2]/div[3]/div[1]/div[2]/div[2]/div/div/div[2]/main/div[2]/div/div/section[2]/div[2]/div/div/div/div[2]/div[1]")
