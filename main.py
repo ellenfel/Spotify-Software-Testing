@@ -4,7 +4,6 @@ from Play import *
 from genre import *
 from unfollow import *
 from Settings import *
-
 from NewMix import *
 
 i = 0
@@ -138,3 +137,4 @@ print("number of test failures happend during func 3 testing is: ",k)
 print("number of test failures happend during func 4 testing is: ",l)
 print("number of test failures happend during func 5 testing is: ",m)
 print("number of test failures happend during func 6 testing is: ",n)
+print("number of test failures happend during func 7 testing is: ",p)
