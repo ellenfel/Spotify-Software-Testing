@@ -48,3 +48,4 @@ def testGenre():
     driver.implicitly_wait(50)
     driver.close() #closes the browser
     print("Genre Location testings finished successfully")
+    driver.quit()

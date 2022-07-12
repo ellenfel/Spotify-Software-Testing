@@ -23,7 +23,7 @@ def LogInOut():
     password_field.send_keys(password)
 
     driver.find_element_by_id("login-button").send_keys(Keys.ENTER)
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(100)
     
     #def LogOut():
     ### log-out ###
@@ -31,12 +31,10 @@ def LogInOut():
     pp.click()
 
     #/html/body/div[4]/div/div[2]/div[1]/header/div[5]/div/div/ul/li[4]/button
-    logout = driver.find_element_by_xpath("/html/body/div[4]/div/div[2]/div[1]/header/div[5]/div/div/ul/li[4]/button")
+    logout = driver.find_element_by_xpath("/html/body/div[4]/div/div[2]/div[1]/header/div[5]/div/div/ul/li[3]/button")
     logout.click()
 
     driver.implicitly_wait(50)
     driver.close() #closes the browser
     print("Login & out tested finished successfully")
-
-    
-
+    driver.quit()
