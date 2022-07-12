@@ -1,3 +1,4 @@
+from NewMix import *
 from blocks import *
 from logInOut import *
 from Play import *
@@ -5,12 +6,28 @@ from genre import *
 from unfollow import *
 from Settings import *
 
+NewMix()
+
 i = 0
 j = 0
 k = 0
 l = 0
 m = 0
 n = 0
+p = 0
+
+#NewMix Funcstinality
+def recursiveEH6():
+
+    global p
+
+    try:
+        NewMix()
+
+    except:
+        p += 1
+        print("#New Mix failures: ",n)
+        recursiveEH6()
 
 #Block Funcstinality
 def recursiveEH5():
@@ -24,6 +41,9 @@ def recursiveEH5():
         n += 1
         print("#Block failures: ",n)
         recursiveEH5()
+
+    else:
+        recursiveEH6()
 
 #Settings & recepiets Funcstinality
 def recursiveEH4():
