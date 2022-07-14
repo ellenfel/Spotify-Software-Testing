@@ -18,8 +18,6 @@ def block():
     logIn_button =driver.find_element_by_xpath("/html/body/div[3]/div/div[2]/nav/div[1]/div[2]/div/div[3]/div/div[1]/div/div/div[2]/button[2]")
     logIn_button.click()
 
-    driver.implicitly_wait(50)
-
     driver.close() #closes the browser
     print("blocking funcs tested successfully")
     driver.quit()

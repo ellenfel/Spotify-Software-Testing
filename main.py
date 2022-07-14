@@ -24,8 +24,9 @@ def recursiveEH6():
 
     except:
         p += 1
-        print("#New Mix failures: ",n)
+        print("#New Mix failures: ",p)
         recursiveEH6()
+        
 
 #Block Funcstinality
 def recursiveEH5():
