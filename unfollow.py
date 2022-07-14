@@ -61,5 +61,3 @@ def unfollow():
     driver.close() #closes the browser
     print("Follow button tested successfully")
     driver.quit()
-
-unfollow()
