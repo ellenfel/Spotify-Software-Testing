@@ -1,4 +1,5 @@
 
+from telnetlib import EC
 from Libs import *
     
 def LogInOut():
@@ -9,12 +10,19 @@ def LogInOut():
     driver.get("https://open.spotify.com")
 
     ### logging-in ###
-    login_button = driver.find_element_by_xpath("/html/body/div[3]/div/div[2]/div[1]/header/div[5]/button[2]")
+    try:
+        driver.implicitly_wait(5)
+        login_button = WebDriverWait(driver,10,1).until( EC.element_to_be_clickable((By.XPATH, "/html/body/div[3]/div/div[2]/div[1]/header/div[5]/button[2]/div")) )
+
+    except :
+        driver.refresh()
+        login_button = WebDriverWait(driver,10,1).until( EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[2]/div[1]/header/div[5]/button[2]")) )
+
     login_button.click()
 
-    driver.implicitly_wait(10)
 
-    username_field = driver.find_element_by_id("login-username")
+    username_field = WebDriverWait(driver,10,1).until( EC.presence_of_element_located((By.ID, "login-username")) )
+   #username_field = driver.find_element_by_id("login-username")
     username_field.clear()
     username_field.send_keys(username)
 
@@ -23,11 +31,11 @@ def LogInOut():
     password_field.send_keys(password)
 
     driver.find_element_by_id("login-button").send_keys(Keys.ENTER)
-    driver.implicitly_wait(100)
     
     #def LogOut():
     ### log-out ###
-    pp = driver.find_element_by_xpath("/html/body/div[4]/div/div[2]/div[1]/header/button")
+    pp = WebDriverWait(driver,10,1).until( EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[2]/div[1]/header/button")) )
+   #pp = driver.find_element_by_xpath("/html/body/div[4]/div/div[2]/div[1]/header/button")
     pp.click()
 
     #/html/body/div[4]/div/div[2]/div[1]/header/div[5]/div/div/ul/li[4]/button
