@@ -20,9 +20,7 @@ def LogInOut():
 
     login_button.click()
 
-
     username_field = WebDriverWait(driver,10,1).until( EC.presence_of_element_located((By.ID, "login-username")) )
-   #username_field = driver.find_element_by_id("login-username")
     username_field.clear()
     username_field.send_keys(username)
 
@@ -30,8 +28,11 @@ def LogInOut():
     password_field.clear()
     password_field.send_keys(password)
 
-    driver.find_element_by_id("login-button").send_keys(Keys.ENTER)
-    
+    try:
+        driver.find_element_by_id("login-button").send_keys(Keys.ENTER)
+    except:
+        driver.find_element_by_id("login-button").send_keys(Keys.ENTER)
+
     #def LogOut():
     ### log-out ###
     pp = WebDriverWait(driver,10,1).until( EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[2]/div[1]/header/button")) )
@@ -42,7 +43,8 @@ def LogInOut():
     logout = driver.find_element_by_xpath("/html/body/div[4]/div/div[2]/div[1]/header/div[5]/div/div/ul/li[3]/button")
     logout.click()
 
-    driver.implicitly_wait(50)
     driver.close() #closes the browser
-    print("Login & out tested finished successfully")
+    print("Login & out testing finished successfully")
     driver.quit()
+
+LogInOut()
