@@ -66,5 +66,3 @@ def Settings():
     driver.close() #closes the browser
     print("receipts and settings funcs tested successfully")
     driver.quit()
-
-Settings()
