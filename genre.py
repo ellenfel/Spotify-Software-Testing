@@ -30,8 +30,8 @@ def testGenre():
     try:
         driver.find_element_by_id("login-button").send_keys(Keys.ENTER)
     except:
+        driver.implicitly_wait(5)
         driver.find_element_by_id("login-button").send_keys(Keys.ENTER)
-
 
 
     ### searching and playing funtionallityies getting tested ###

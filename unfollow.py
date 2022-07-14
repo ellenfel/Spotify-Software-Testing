@@ -29,8 +29,8 @@ def unfollow():
     try:
         driver.find_element_by_id("login-button").send_keys(Keys.ENTER)
     except:
+        driver.implicitly_wait(5)
         driver.find_element_by_id("login-button").send_keys(Keys.ENTER)
-
 
     ### searching and playing funtionallityies getting tested ### 
     search_button = WebDriverWait(driver,10,2).until( EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[2]/nav/div[1]/ul/li[2]/a")) )

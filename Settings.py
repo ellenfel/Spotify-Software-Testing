@@ -29,8 +29,9 @@ def Settings():
     try:
         driver.find_element_by_id("login-button").send_keys(Keys.ENTER)
     except:
+        driver.implicitly_wait(5)
         driver.find_element_by_id("login-button").send_keys(Keys.ENTER)
-
+        
     ### locating account page ###
     #/html/body/div[4]/div/div[2]/div[1]/header/button
     pp = WebDriverWait(driver,10,1).until( EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[2]/div[1]/header/button")) )
