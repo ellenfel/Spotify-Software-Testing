@@ -46,5 +46,3 @@ def LogInOut():
     driver.close() #closes the browser
     print("Login & out testing finished successfully")
     driver.quit()
-
-LogInOut()
